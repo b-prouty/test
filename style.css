@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  /* overflow: auto; */
+  text-decoration: none;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.glossary-text{
+  height: 300px;
+  overflow: scroll;
+  width: 90%;
+  background-color: #eee;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
